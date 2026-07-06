@@ -33,7 +33,7 @@ done
 shift $((OPTIND - 1))
 
 if [ -z "$1" ]; then
-    echo "Error"
+    echo "Error!"
     exit 1
 fi 
 

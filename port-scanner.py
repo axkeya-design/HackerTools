@@ -19,7 +19,7 @@ async def scan_port(ip, port, semaphore):
 
 async def main():
     if len(sys.argv) < 2:
-        print("Error")
+        print("Error!")
         sys.exit(1)
 
     target_ip = sys.argv[1]
